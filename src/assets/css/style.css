@@ -1,0 +1,359 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+@font-face {
+   font-family: 'InteloReg';
+   /* src:url(../fonts/Intelo-Regular.ttf) format('truetype'); */
+   
+}
+
+@font-face {
+   font-family: 'Intelo-Bold';
+   /* src:url(../fonts/Intelo-Bold.ttf) format('truetype'); */
+   
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		5;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	10;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Mobile Layout: 480px and below. */
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+#topimgBar {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#topimgbot {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#whatweoffer_block {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#mid_block1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#mid_block2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#testimonials_block {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#footer_block {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+.fl{float:left;}
+.rl{float:left;}
+.cb{clear:both;}
+.ac{text-align:center;}
+
+.logo_block{ width:100%; height:50px; margin:0 auto; background:#FFF;}
+.logo{ width:25%; height:auto; margin:0 auto; margin-top:2%; margin-left:3%;}
+.headerimg{	position:relative; width:100%; margin:0 auto;}
+.headerimg_BOT{	position:relative; width:100%; margin:0 auto; background:#343434; height:100px; }
+.headerimg_BOT p{color:#FFF;font-size:80%;text-align:justify; font-family:'InteloReg'; padding:2.5%;}
+
+.right_box{position: absolute;
+	height: 100%;
+	width: 59%;
+  	top: 0px;
+	margin-right:29%;
+	margin-top:8%;
+	margin-left:30%;
+	
+	}
+	
+.right_box h1{color:#3a3a3a;font-size:200%;font-weight:bold; font-family:'Intelo-Bold'; margin-top:1%; text-align:center;}
+.right_box h2{color:#3a3a3a;font-size:160%;font-weight:bold; font-family:'Intelo-Bold'; margin-top:-3%;}
+
+.leftform{
+	position:relative;
+	height: 100%;
+	width: 100%;
+ 	background-color:#000;
+ 	opacity: 0.9;
+    filter: alpha(opacity=90); 
+	top: 0px;
+	}
+.inputBox{padding-left:6%;padding-top:5%;padding-right:6%;margin-top:2%;text-align:left;}
+.inputBox2{ margin-left:6%; margin-top:5%; margin-bottom:3%;}
+
+.rightPanelHeaderTxt{color:#FFF;font-size:190%;font-weight:bold;padding-top:15px;text-align:center; font-family:'InteloReg'}
+.rightPanelInputTxt{color:#828282;font-size:100%;font-weight:normal;padding:5px;border:#999 1px solid;width:100%; background-color:#ffff; height:40px;}
+.rightPanelHeaderTxt2{color:#FFF;font-size:220%;font-weight:normal;padding-top:10%; padding-bottom:10%;text-align:center; font-family:'InteloReg'; width:70%; margin-left:16%;}
+
+
+.txtBlack5{color:#fff;font-size:90%;font-weight:normal; font-family:'InteloReg';}
+.txtBlack2{color:#010101;font-size:150%;font-weight:normal; font-family:'InteloReg';}
+.whatweoffer_bg{ background-color:#fff; height:681px; margin:0 auto; width:100%; margin-top:-2%; border-bottom:#999 solid 1px; border-top:#999 solid 1px;}
+.whatweoffer_bg h2{color:#3a3a3a;font-size:210%;font-weight:bold; font-family:'Intelo-Bold'; text-align:center; padding-top:2%;}
+.whatweoffer_bg h3{color:#fff;font-size:160%;font-weight:bold; font-family:'Intelo-Bold'; text-align:center; padding-top:4%; margin:0 auto;}
+.whatweoffer_bg p{color:#fff;font-size:80%;font-weight:normal; font-family:'InteloReg'; text-align:center; padding-top:2%; width:90%; margin:0 auto;}
+
+
+
+.whatweoffer_box{width:47%; height:37%; margin-top:3%; background-color:#cc8235; margin-left:2%;}
+.whatweoffer_line{width:1px; height:55%; margin-left:3%; margin-right:-2%; margin-top:3%; background-color:#000; display:none;}
+.whatweoffer_imgblock{ width:100%; height:auto; display:block; margin:0 auto;}
+
+.mid_block{ background-color:#fff; height:180px; margin:0 auto; width:100%; border-bottom:#999 solid 1px;}
+.mid_block h2{color:#3a3a3a;font-size:180%;font-weight:bold; font-family:'Intelo-Bold'; text-align:center; padding-top:1%;}
+.mid_block p{color:#3a3a3a;font-size:100%;font-weight:bold; font-family:'InteloReg'; padding-top:2%; width:98%; text-align:center;}
+
+
+.mid_block2_bg{ background-color:#e2e2e2; height:709px; margin:0 auto; width:100%; margin-top:-2%; border-bottom:#999 solid 1px; border-top:#999 solid 1px;}
+.mid_block2_bg h2{color:#3a3a3a;font-size:180%;font-weight:bold; font-family:'Intelo-Bold'; text-align:center; padding-top:2%;}
+.mid_block2_bg h3{color:#3a3a3a;font-size:140%;font-weight:bold; font-family:'Intelo-Bold'; text-align:left; margin-left:5%;}
+.mid_block2_bg p{color:#3a3a3a;font-size:88%;font-weight:bold; font-family:'InteloReg'; text-align:center; padding-top:2%;}
+
+
+
+.mid_block2_box{width:50%; margin-top:3%;}
+.mid_block2_box_m{width:100%; margin-top:3%;}
+
+.mid_block2_imgblock{ width:60%; height:auto; display:block; margin:0 auto;}
+.mid_block2_box ul{ padding:0 0 0 30px;}
+
+.testimonials{ background-color:#fff; height:250px; margin:0 auto; width:100%; border-bottom:#999 solid 1px;}
+.testimonials h2{color:#3a3a3a;font-size:210%;font-weight:bold; font-family:'Intelo-Bold'; text-align:center; padding-top:1%;}
+.testimonials p{color:#0000;font-size:120%;font-weight:400; font-family:'InteloReg'; padding-top:1%; width:80%; text-align:center; margin:0 auto;}
+
+.footer{ background-color:#f47920; height:120px; margin:0 auto; width:100%;}
+.footer_inner{ height:50px; margin:0 auto; width:95%; padding-top:20px;}
+.copy{ width:100%; margin:0 auto;}
+.copy p{color:#fff;font-size:90%;font-weight:400; font-family:'InteloReg'; padding-top:1%; text-align:left; margin:0 auto;}
+
+.copy_right{ width:100%; margin:0 auto;}
+.copy_right p{color:#fff;font-size:90%;font-weight:400; font-family:'InteloReg'; text-align:left; margin:0 auto; margin-top:2%;}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 100%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	width: 100%;
+	max-width: 1349px;
+
+	margin: auto;
+}
+#toplogobar {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#topimgBar {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#topimgbot {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#whatweoffer_block {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#mid_block1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#mid_block2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#testimonials_block {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#footer_block {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+.fl{float:left;}
+.rl{float:left;}
+.cb{clear:both;}
+.ac{text-align:center;}
+
+.logo_block{ width:100%; height:60px; margin:0 auto; background:#FFF;}
+.logo{ width:30%; height:auto; margin:0 auto; margin-top:1%; margin-left:3%;}
+.headerimg{	position:relative; width:100%; margin:0 auto;}
+.headerimg_BOT{	position:relative; width:100%; margin:0 auto; background:#343434; height:56px;}
+.headerimg_BOT p{color:#FFF;font-size:90%;text-align:justify; font-family:'InteloReg'; padding:0.5%;}
+
+.right_box{position: absolute;
+	height: 100%;
+	width: 32%;
+  	top: 0px;
+	margin-left:30%;
+	margin-top:12%;
+	
+	
+	}
+	
+.right_box h1{color:#3a3a3a;font-size:300%;font-weight:bold; font-family:'Intelo-Bold'; margin-top:1%; text-align:center;}
+.right_box h2{color:#3a3a3a;font-size:230%;font-weight:bold; font-family:'Intelo-Bold'; margin-top:-3%;}
+
+.leftform{
+	position: absolute;
+	height: 100%;
+	width: 25%;
+ 	background-color:#000;
+  	left: 75%;
+ 	opacity: 0.9;
+    filter: alpha(opacity=90); 
+	top: 0px;
+	}
+.inputBox{padding-left:6%;padding-top:5%;padding-right:6%;margin-top:2%;text-align:left;}
+.inputBox2{ margin-left:6%; margin-top:1%;}
+
+.rightPanelHeaderTxt{color:#FFF;font-size:190%;font-weight:bold;padding-top:15px;text-align:center; font-family:'InteloReg'; margin-top:2%;}
+.rightPanelHeaderTxt2{color:#FFF;font-size:220%;font-weight:normal;padding-top:50%;text-align:center; font-family:'InteloReg'; width:70%; margin-left:16%;}
+
+
+.rightPanelInputTxt{color:#828282;font-size:100%;font-weight:normal;padding:5px;border:#999 1px solid;width:100%; background-color:#ffff; height:40px;}
+
+.txtBlack5{color:#fff;font-size:90%;font-weight:normal; font-family:'InteloReg';}
+.txtBlack2{color:#010101;font-size:150%;font-weight:normal; font-family:'InteloReg';}
+
+
+.whatweoffer_bg{ background-color:#fff; height:440px; margin:0 auto; width:100%; margin-top:-2%; border-bottom:#999 solid 1px; border-top:#999 solid 1px;}
+.whatweoffer_bg h2{color:#3a3a3a;font-size:210%;font-weight:bold; font-family:'Intelo-Bold'; text-align:center; padding-top:2%;}
+.whatweoffer_bg h3{color:#fff;font-size:160%;font-weight:bold; font-family:'Intelo-Bold'; text-align:center; padding-top:4%; margin:0 auto;}
+.whatweoffer_bg p{color:#fff;font-size:80%;font-weight:normal; font-family:'InteloReg'; text-align:center; padding-top:2%; width:90%; margin:0 auto;}
+
+
+
+.whatweoffer_box{width:17%; height:55%; margin-left:6%; margin-top:3%; background-color:#cc8235;}
+.whatweoffer_line{width:1px; height:55%; margin-left:3%; margin-right:-2%; margin-top:3%; background-color:#000; display:block;}
+.whatweoffer_imgblock{ width:100%; height:auto; display:block; margin:0 auto;}
+
+
+
+.mid_block{ background-color:#fff; height:250px; margin:0 auto; width:100%; border-bottom:#999 solid 1px;}
+.mid_block h2{color:#3a3a3a;font-size:210%;font-weight:bold; font-family:'Intelo-Bold'; text-align:center; padding-top:1%;}
+.mid_block p{color:#0000;font-size:120%;font-weight:400; font-family:'InteloReg'; padding-top:1%; width:80%; text-align:center; margin:0 auto;}
+
+
+
+.mid_block2_bg{ background-color:#e2e2e2; height:485px; margin:0 auto; width:100%; margin-top:-2%; border-bottom:#999 solid 1px; border-top:#999 solid 1px;}
+.mid_block2_bg h2{color:#3a3a3a;font-size:210%;font-weight:bold; font-family:'Intelo-Bold'; text-align:center; padding-top:2%;}
+.mid_block2_bg h3{color:#3a3a3a;font-size:180%;font-weight:bold; font-family:'Intelo-Bold'; text-align:center;}
+.mid_block2_bg p{color:#000;font-size:100%;font-weight:bold; font-family:'InteloReg'; text-align:center; width:67%; margin:0 auto;}
+
+
+
+.mid_block2_box{width:22%; margin-left:2%; margin-top:3%;}
+.mid_block2_box_m{width:100%; margin-left:10%; margin-top:3%;}
+
+.mid_block2_imgblock{ width:30%; height:auto; display:block; margin:0 auto;}
+
+.testimonials{ background-color:#fff; height:250px; margin:0 auto; width:100%; border-bottom:#999 solid 1px;}
+.testimonials h2{color:#3a3a3a;font-size:210%;font-weight:bold; font-family:'Intelo-Bold'; text-align:center; padding-top:1%;}
+.testimonials p{color:#0000;font-size:120%;font-weight:400; font-family:'InteloReg'; padding-top:1%; width:80%; text-align:center; margin:0 auto;}
+
+.footer{ background-color:#f47920; height:100px; margin:0 auto; width:100%;}
+.footer_inner{ height:50px; margin:0 auto; width:95%; padding-top:20px;}
+.copy{ width:30%; margin:0 auto;}
+.copy p{color:#fff;font-size:90%;font-weight:400; font-family:'InteloReg'; padding-top:1%; text-align:left; margin:0 auto;}
+
+.copy_right{ width:70%; margin:0 auto;}
+.copy_right p{color:#fff;font-size:90%;font-weight:400; font-family:'InteloReg'; text-align:right; margin:0 auto;}
+.container-fluid{background:#F47920 !important; }
+
+
+
+
+
+}
