@@ -17,7 +17,7 @@ const customers = () => (
                 <div className="col-md-12">
                     <h3 className="testi-title fs-36">Real Customer Stories</h3>
                 </div>
-                <OwlCarousel className="owl-theme"   margin={10}>
+                <OwlCarousel className="owl-theme" autoWidth  margin={10}>
                     <div className="col-sm-6">
                         <div className="item">
                             <div className="offer-bx">
