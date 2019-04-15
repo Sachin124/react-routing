@@ -6,6 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
 }
 
 code {
@@ -13,10 +14,10 @@ code {
     monospace;
 }
 
- .fa-bars {
-  border: 2px solid #F47920;
+.fa-bars {
+  border: 2px solid #f47920;
   height: 25px;
-  color: #F47920;
+  color: #f47920;
   width: 25px;
   font-size: 15px;
   padding-top: 3px;
@@ -26,18 +27,17 @@ code {
   border-radius: 100px;
 }
 
-
-.mt-10{
+.mt-10 {
   margin-top: 8px;
 }
 
 a {
-  color: #F47920;
+  color: #f47920;
   font-size: 14px;
   text-decoration: none;
 }
 
-.flot-menu{
+.flot-menu {
   display: block !important;
 }
 
@@ -49,11 +49,18 @@ a {
   margin-left: auto;
 }
 
-.social i{
+.social i {
   font-size: 14px;
 }
 
-
+.pressImage {
+  width: 100%;
+  vertical-align: middle;
+}
+/* .why-incred-row {
+  padding-bottom: 100px;
+  padding-top: 150px;
+} */
 /* html, body {
   margin: 0;
   height: 100%;
@@ -80,18 +87,14 @@ a {
   height: 100%;
   width: 100%;
   /* display: flex; */
-  margin-top: 100px;
+  /* margin-top: 100px; */
 }
-
-
 
 .first-component--inside-scroller {
   position: absolute;
   right: 20px;
   top: 100px;
 }
-
-
 
 /* h2 {
   margin: auto;
@@ -107,7 +110,8 @@ a {
   width: 100%;
 }
 
-.pagination-additional-class > li:not(:last-of-type) > a, .pagination-additional-class > li:not(:last-of-type) > span {
+.pagination-additional-class > li:not(:last-of-type) > a,
+.pagination-additional-class > li:not(:last-of-type) > span {
   margin-right: 50px;
 }
 
@@ -123,18 +127,65 @@ a {
   margin-bottom: 20px;
 }
 
-.all-img{
-  width: 100%; vertical-align: middle;
+.all-img {
+  width: 100%;
+  vertical-align: middle;
 }
 
-.client-Component{
-      background: white !important;
+.client-Component {
+  background: white !important;
 }
 
-.fs-24{
-  font-size:24px;
+.fs-24 {
+  font-size: 24px;
 }
 
-.fs-36{
-  font-size:36px;
+.fs-36 {
+  font-size: 36px;
+}
+.fs-20{
+  font-size: 20px;
+}
+.mt-200{
+  margin-top: 200px;
+}
+.pt-3{
+  padding-top: 3px;
+}
+.pt-10{
+  padding-top: 10%;
+}
+.page3 {
+  background: #f7f7f7;
+  padding-top: 10%;
+}
+
+.owl-theme .owl-dots .owl-dot {
+  display: inline-block;
+  zoom: 1.2;
+}
+
+a {
+  color: #F47920 !important;
+  text-decoration: none;
+}
+
+.tag-navy{
+  color: navy;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+/* .list-unstyled{
+  line-height: 12pt !important;
+} */
+
+.copy-right {
+  font-size: 14px;
+  border-top: 1px solid white;
+  margin-top: -38px !important;
 }

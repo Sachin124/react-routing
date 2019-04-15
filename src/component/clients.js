@@ -6,7 +6,7 @@ import all from '../assets/img/all.png';
 const clients = ()=>(
     <Aux>
         <section className="h-press component" id="press">
-				<div className="">
+				<div className="pt-10">
 					<div className="container">
 						<div className="row">
 							<div className="col-md-6">
@@ -20,7 +20,7 @@ const clients = ()=>(
 								</div>
 							</div>
 							<div className="col-md-6">
-								<img src={all} className="all-img" alt="press" />
+								<img className="pressImage" src={all} className="all-img" alt="press" />
 							</div>
 						</div>
 					</div>

@@ -6,15 +6,15 @@ class Banner extends Component {
     render() {
         return (
             <Aux>
-                <div className="">
-                    <div className={classes.bannerImage}>
-                        <div className="row">
-                            <span className={classes.bannerText}>Borrow. With Confidence.<br />
-                                <button className="chcke-rate show-btn">Apply Now</button>
-                            </span>
+                    <section className="page1">
+                        <div className={classes.bannerImage}>
+                            <div className="row">
+                                <span className={classes.bannerText}>Borrow. With Confidence.<br />
+                                    <button className="chcke-rate show-btn">Apply Now</button>
+                                </span>
+                            </div>
                         </div>
-                    </div>
-                </div>
+                </section>
             </Aux>
         );
     }

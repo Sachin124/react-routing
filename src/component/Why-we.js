@@ -7,8 +7,8 @@ import Asset3 from '../assets/img/Asset3.svg';
 
 const whyWe = () => (
     <Aux>
-        <section className="page6 lend-sec" id="why-incred">
-            <div className="container-fluid">
+        <section className="page6 lend-sec component" id="why-incred">
+            <div className="container-fluid pt-10">
                 <div className="container">
                     <div className="row why-incred-row">
                         <div className="col-md-12 text-center" >
