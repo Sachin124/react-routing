@@ -12,7 +12,7 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 const customers = () => (
  
     <Aux>
-        <section className="page3 component" id="customer1">
+        <section className="page3 component " id="customer1">
             <div className="container">
                 <div className="col-md-12">
                     <h3 className="testi-title fs-36">Real Customer Stories</h3>

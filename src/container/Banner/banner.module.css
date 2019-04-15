@@ -10,7 +10,7 @@
   .bannerText {
     position: absolute;
     margin: 0;
-    top: 55%;
+    top: 40%;
     left: 50%;
     margin-right: -50%;
     -webkit-transform: translate(-50%,-50%);
@@ -46,4 +46,8 @@
         display: inline-block;
         font-size: 16px;
         margin: 4px 2px;
+}
+
+.listIndex{
+  z-index: 1
 }

@@ -7,7 +7,7 @@ import blog3 from '../assets/img/blog3.jpg';
 
 const latestBlog = () => (
     <Aux>
-        <section className="page3 component" id="footer">
+        <section className="page3 component " id="footer">
             <div className="">
                 <div className="container">
 

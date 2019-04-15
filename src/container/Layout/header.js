@@ -29,7 +29,7 @@ class Header extends Component {
 
     render() {
         return (
-                <Navbar color="faded" light expand="md" sticky="top">
+                <Navbar color="light" light expand="md" sticky="top">
                     <Link className="nav-link" to="/">
                         <img src={logo} height="50" alt="Logo" />
                     </Link>
