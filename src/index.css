@@ -191,7 +191,9 @@ a {
   border-top: 1px solid white;
   margin-top: -38px !important;
 }
-
+.h-quick-services ul li a {
+  color: #fff !important;
+}
 
 @media (max-width: 767px){
 .footer {
