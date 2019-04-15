@@ -26,27 +26,6 @@ code {
   border-radius: 100px;
 }
 
-/* 
-.chcke-rate {
-  font-size: 18px;
-  color: #fff!important;
-  border: 1px solid #fff;
-  background: #F47920;
-  padding: 7px 18px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 30px;
-  font-weight: 400;
-  display: inline-block;
-}
-
-
-.chcke-rate:hover {
-  color: #F47920!important;
-  background: #fff;
-  border: 1px solid #F47920;
-  border-radius: 30px;
-} */
 
 .mt-10{
   margin-top: 8px;
@@ -72,4 +51,90 @@ a {
 
 .social i{
   font-size: 14px;
+}
+
+
+/* html, body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+} */
+
+.title {
+  margin: 20px auto 0;
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.links .link {
+  margin-top: 20px;
+}
+
+.component {
+  height: 100%;
+  width: 100%;
+  /* display: flex; */
+  margin-top: 100px;
+}
+
+
+
+.first-component--inside-scroller {
+  position: absolute;
+  right: 20px;
+  top: 100px;
+}
+
+
+
+/* h2 {
+  margin: auto;
+  text-align: center;
+} */
+
+.pagination-additional-class {
+  margin: 0;
+  position: fixed;
+  top: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.pagination-additional-class > li:not(:last-of-type) > a, .pagination-additional-class > li:not(:last-of-type) > span {
+  margin-right: 50px;
+}
+
+.demo-page-contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.demo-page-contain__hint {
+  margin-bottom: 20px;
+}
+
+.all-img{
+  width: 100%; vertical-align: middle;
+}
+
+.client-Component{
+      background: white !important;
+}
+
+.fs-24{
+  font-size:24px;
+}
+
+.fs-36{
+  font-size:36px;
 }

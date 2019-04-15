@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import classes from './footer.module.css';
+// import classes from './footer.module.css';
 class Footer extends Component {
     render() {
         return (
@@ -23,7 +23,7 @@ class Footer extends Component {
                                         <li><a href="../team.html">Team</a></li>
                                         <li><a href="../partnership.html">Partnerships</a></li>
                                         <li><a href="../incredible-customer-stories.html">Testimonials</a></li>
-                                        <li><a className="mailus" href="https://www.incred.com/docs/Advisory+Note+-+VISU.pdf" target="_blank">Advisory Note</a></li>
+                                        <li><a className="mailus" href="https://www.incred.com/docs/Advisory+Note+-+VISU.pdf" >Advisory Note</a></li>
                                         <li><a className="mailus" href="../termsofuse.html">Terms of Use</a></li>
                                         <li><a className="mailus" href="../privacypolicy.html">Privacy Policy</a></li>
                                     </ul>
@@ -44,9 +44,9 @@ class Footer extends Component {
                                         <li><a className="mailus" href="../term-appointment-ID.html">T&amp;C Of The Appointment Of Independent Directors</a></li>
 
                                         <li><a className="mailus" href="../resignation-notice-bee-secure.html">Resignation of Directors</a></li>
-                                        <li><a className="mailus" href="https://www.incred.com/docs/Whistle Blower Policy.pdf" target="_blank">Whistle Blower Policy</a></li>
+                                        <li><a className="mailus" href="https://www.incred.com/docs/Whistle Blower Policy.pdf" >Whistle Blower Policy</a></li>
                                         <li><a className="mailus" href="https://www.incred.com/docs/Policy for Determining Interest Rates, Processing & other Charges.pdf"
-                                            target="_blank">Policy for Determining Interest Rates, Processing &amp; other Charges</a></li>
+                                            >Policy for Determining Interest Rates, Processing &amp; other Charges</a></li>
 
                                     </ul>
                                 </div>
@@ -64,15 +64,15 @@ class Footer extends Component {
                                         <li><a className="mailus" href="../corp-gov.html">Corporate Governance Guidelines</a></li>
                                         <li><a className="mailus" href="../related-party-policy.html">Policy on Related Party Transactions</a></li>
                                         <li><a className="mailus" href="../EGM-notice.html">Notices of General Meetings</a></li>
-                                        <li><a className="mailus" href="https://www.incred.com/docs/18.12.11_Code of insider trading.pdf" target="_blank">Code of Insider Trading</a></li>
+                                        <li><a className="mailus" href="https://www.incred.com/docs/18.12.11_Code of insider trading.pdf" >Code of Insider Trading</a></li>
                                         <li><a className="mailus" href="../term-appointment-ID.html">T&amp;C Of The Appointment Of Independent Directors</a></li>
                                         <li><a className="mailus" href="../grievance.html">Grievance Redressal Policy</a></li>
                                         <li><a className="mailus" href="../terms-and-conditions-pl.html">General T&C</a></li>
                                         <li><a className="mailus" href="../resignation-notice.html">Resignation of Directors</a></li>
-                                        <li><a className="mailus" href="https://www.incred.com/docs/VISU- NRC Policy.pdf" target="_blank">NRC Policy</a></li>
-                                        <li><a className="mailus" href="https://www.incred.com/docs/CSR Policy.pdf" target="_blank">CSR Policy</a></li>
-                                        <li><a className="mailus" href="https://www.incred.com/docs/Whistle Blower Policy.pdf" target="_blank">Whistle Blower Policy</a></li>
-                                        <li><a className="mailus" href="https://www.incred.com/docs/Interest Rate Model.pdf" target="_blank">Policy for Determining Interest Rates, Processing &amp; other Charges</a></li>
+                                        <li><a className="mailus" href="https://www.incred.com/docs/VISU- NRC Policy.pdf" >NRC Policy</a></li>
+                                        <li><a className="mailus" href="https://www.incred.com/docs/CSR Policy.pdf" >CSR Policy</a></li>
+                                        <li><a className="mailus" href="https://www.incred.com/docs/Whistle Blower Policy.pdf" >Whistle Blower Policy</a></li>
+                                        <li><a className="mailus" href="https://www.incred.com/docs/Interest Rate Model.pdf" >Policy for Determining Interest Rates, Processing &amp; other Charges</a></li>
                                     </ul>
                                 </div>
 
@@ -97,11 +97,11 @@ class Footer extends Component {
                                         <i className="fa fa-phone"></i>
                                         <a href="tel:18605002192" >1860 500 2192</a>
                                         <ul className="list-unstyled list-inline">
-                                            <li className="social"><a href="https://twitter.com/InCredFin" target="_blank"><i className="fa fa-twitter"></i></a></li>
-                                            <li className="social"><a href="https://www.facebook.com/InCredIndia/" target="_blank"><i className="fa fa-facebook"></i></a></li>
-                                            <li className="social"><a href="https://www.linkedin.com/company/incred-finance/" target="_blank"><i className="fa fa-linkedin"></i></a></li>
-                                            <li className="social"><a href="https://www.instagram.com/incredfin" target="_blank"><i className="fa fa-instagram"></i></a></li>
-                                            <li className="social"><a href="https://www.youtube.com/channel/UCWDW_L_2lSaDAL4O5ghj7yg" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                                            <li className="social"><a href="https://twitter.com/InCredFin" ><i className="fa fa-twitter"></i></a></li>
+                                            <li className="social"><a href="https://www.facebook.com/InCredIndia/" ><i className="fa fa-facebook"></i></a></li>
+                                            <li className="social"><a href="https://www.linkedin.com/company/incred-finance/" ><i className="fa fa-linkedin"></i></a></li>
+                                            <li className="social"><a href="https://www.instagram.com/incredfin" ><i className="fa fa-instagram"></i></a></li>
+                                            <li className="social"><a href="https://www.youtube.com/channel/UCWDW_L_2lSaDAL4O5ghj7yg" ><i class="fa fa-youtube"></i></a></li>
                                         </ul>
                                     </div> */}
                                 </div>

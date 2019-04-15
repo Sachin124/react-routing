@@ -1,7 +1,10 @@
 .bannerImage {
     background-image: url("../../assets/img/banner-img-homepage.jpg");
     height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
     background-position: center;
+    background-size: cover;
   }
   
   .bannerText {

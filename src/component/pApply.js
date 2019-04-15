@@ -6,7 +6,7 @@ const pApply = () => (
   <Aux>
     <div id="topimgBar">
       <div className="headerimg">
-        <img src={sml_banner} />
+        <img src={sml_banner} alt="banner"/>
         <div className="right_box">
           <h1><strong>Quick & Easy Loans for all your needs</strong></h1>
           <h2><strong>With InCred Personal Loans</strong></h2>
@@ -26,9 +26,7 @@ const pApply = () => (
               <input type="email" placeholder="Email" name="email" id="email" className="rightPanelInputTxt" required /></div>
             <div className="inputBox">
               <input name="city" type="text" placeholder="City" required className="rightPanelInputTxt" id="p_user_city" /></div>
-            <div hidden>
-              <input name="LEAD" id="lead" value="PLSEMCampaign1" id="" maxlength="30" type="text" className="form-control" placeholder="" /></div>
-
+           
               <div className="inputBox">
                 <input name="loan_amount" type="text" placeholder="Loan Amount (up to 40 lakh)" required className="rightPanelInputTxt"
                   id="numonly" /><span id="error" >* Input digits (0 - 9)</span></div>
@@ -40,7 +38,7 @@ const pApply = () => (
                 <input name="authorise" type="checkbox" className="checkbx" checked="checked" id="authorise" required />
                 <span className="txtBlack5">I authorize InCred Financial Services Limited to contact me. *</span></div>
               <div className="inputBox2">
-                <input type="image" src={apply} id="btnSubmit" name="btnSubmit" value="Submit"
+                <img  src={apply} id="btnSubmit" alt="img" name="btnSubmit" value="Submit"
                 /></div>
 
               <input name="utm_source" id="utm_source" maxlength="30" type="hidden" />

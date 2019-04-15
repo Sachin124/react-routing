@@ -5,8 +5,8 @@ import Footer from './footer';
 
 import { Route } from 'react-router-dom';
 import Student from '../students';
-import Banner from '../Banner/banner';
 import Papply from '../pApply-component';
+import FullPage from '../FullPage';
 
 class Layout extends Component {
     render() {
@@ -14,11 +14,10 @@ class Layout extends Component {
             <div>
                 <Header />
                 <div className="container-fluid">
-                <Route path="/" exact component={Banner} />
+                <Route path="/" exact component={FullPage} />
                  <Route path="/student" exact component={Student} />
                  <Route path="/papply" exact component={Papply} />
                 </div>
-                <Footer />
             </div>
 
         );
