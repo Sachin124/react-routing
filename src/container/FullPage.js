@@ -14,6 +14,8 @@ class FullPage extends Component {
         super(props);
         this.state = {currentPage: 1};
         this._pageScroller = null;
+       
+        
     }
     goToPage = (pageNumber) => {
         this.reactPageScroller.goToPage(pageNumber);
@@ -35,11 +37,17 @@ class FullPage extends Component {
 
         return [...pageNumbers];
     };
+    componentWillUnmount() {
+        const body = document.getElementsByTagName("body")[0];
+        body.classList.remove("addOverflow");
+    }
 
     render() {
         const isMobile = window.innerWidth <= 500;
         const pagesNumbers = this.getPagesNumbers();
+       
         const body = document.getElementsByTagName("body")[0];
+       
         if(!isMobile){
             body.classList.add("addOverflow");
             return (

@@ -26,7 +26,7 @@
 .bannerButton {
     font-size: 18px;
     color: #fff;
-    background: #F47920;
+    background: #fdd535;
     padding: 15px 32px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 10px;
@@ -37,7 +37,7 @@
 }
 
 .myCircle{
-        background-color: #F47920;
+        background-color: #fdd535;
         border: none;
         color: white;
         padding: 20px;

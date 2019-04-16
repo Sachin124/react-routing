@@ -26,7 +26,7 @@ dt {
   }
   .sub-title {
     text-align: left;
-    color:#F47920; 
+    color:#fdd535; 
   }
   .main-content {
     text-align: justify;
@@ -120,7 +120,7 @@ dt {
       color: black;
   }
   .short-links-cont a:hover {
-      color: #F47920;
+      color: #fdd535;
   }
   .short-links-cont {
       margin-top: 20px;
@@ -149,7 +149,7 @@ dt {
     width: 100%;
   }
   .content-item .overlay {
-    border-bottom: 100px solid #F47920;
+    border-bottom: 100px solid #fdd535;
     border-left: 100px solid transparent;
     bottom: 0;
     height: 0;
@@ -164,7 +164,7 @@ dt {
     width: 0;
   }
   .content-item:hover .overlay {
-    border-bottom: 800px solid #F47920;
+    border-bottom: 800px solid #fdd535;
     border-left: 800px solid transparent;
     -moz-transition: all 0.5s ease-out;
     -o-transition: all 0.5s ease-out;
@@ -238,7 +238,7 @@ dt {
     float:	left;
   } */
   .navbar {
-    display: block;
+    display: flex;
   }
   #personal-ln-page .header-banner {
       height: 100vh;

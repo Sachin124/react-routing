@@ -8,21 +8,26 @@
     text-align: center;
  } */
 
- a {
-    color: white !important;
-    text-decoration: none !important;
-  }
+a {
+  color: white !important;
+  text-decoration: none !important;
+}
 
+.aTag {
+  color: #fdd535 !important;
+  text-decoration: none !important;
+}
+i {
+  font-size: 17px !important;
+}
 
-  .aTag {
-    color: #F47920 !important;
-    text-decoration: none !important;
-  }
-  i{
-      font-size: 17px !important;
-  }
+.footer .social a {
+  color: #fdd535 !important;
+}
 
-  .footer .social a {
-    color: #F47920 !important;
-  }
-
+.footer {
+  background-color: #fdd535;
+  height: 120px !important;
+  margin: 0 auto;
+  width: 100%;
+}

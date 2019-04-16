@@ -7,7 +7,7 @@ const teams = () => (
         <section className="team page4 component">
             <div className="">
                 <div className="container">
-                    <div className="row">                      
+                    <div className="row pt-10">                      
                         <div className="col-md-6 pull-left team-content">
                             <h4>Team</h4>
                             <h2>In good company.</h2>

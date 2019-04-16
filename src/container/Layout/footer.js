@@ -4,7 +4,7 @@ class Footer extends Component {
     render() {
         return (
             <div id="footer_block">
-                <section className=" footer page6 component" id="footer">
+                <section className=" footer page6 component pt-10" id="footer">
                     <div className="container-fluid" >
                         <div className="container">
                             <div className="row footer-links">

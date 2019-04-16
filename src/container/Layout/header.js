@@ -57,24 +57,24 @@ class Header extends Component {
                                 </DropdownToggle>
                                 <DropdownMenu right>
                                     <DropdownItem>
-                                        <div className={classes.displays}>
+                                        {/* <div className={classes.displays}> */}
                                             <div className="flot-menu">
                                                 <span className="fa fa-close menu-trigger"></span>
                                                 <ul className="list-unstyled">
-                                                    <li><Link  to="/papply"><i className="fa fa-car"></i>Personal Loans</Link></li>
-                                                    <li><Link  to="/papply"><i className="fa fa-book"></i>Education Loans</Link></li>
-                                                    <li><Link  to="/papply"><i className="fa fa-briefcase"></i>SME Business Loans</Link></li>
-                                                    <li><Link  to="/papply"><i className="fa fa-briefcase"></i>Two Wheeler Loans</Link></li>
-                                                    <li><Link  to="/papply"><i className="fa fa-user"></i>About Us</Link></li>
-                                                    <li><Link  to="/papply"><i className="fa fa-phone"></i>Contact Us</Link></li>
-                                                    <li><Link  to="/papply"><i className="fa fa-briefcase"></i>Careers</Link></li>
-                                                    <li><Link  to="/papply"><i className="fa fa-users"></i>Team</Link></li>
-                                                    <li><Link  to="/papply"><i className="fa fa-book"></i>Blog</Link></li>
-                                                    <li><Link  to="/papply"><i className="fa fa-newspaper-o"></i>InCred In News</Link></li>
-                                                    <li className="small-screen"><Link  to="/papply"><i className="fa fa-money"></i>Pay EMI</Link></li>
+                                                    <li><Link className={classes.floatMenuColor}className={classes.floatMenuColor} to="/papply"><i className="fa fa-car"></i>Personal Loans</Link></li>
+                                                    <li><Link className={classes.floatMenuColor} to="/papply"><i className="fa fa-book"></i>Education Loans</Link></li>
+                                                    <li><Link className={classes.floatMenuColor} to="/papply"><i className="fa fa-briefcase"></i>SME Business Loans</Link></li>
+                                                    <li><Link className={classes.floatMenuColor} to="/papply"><i className="fa fa-briefcase"></i>Two Wheeler Loans</Link></li>
+                                                    <li><Link className={classes.floatMenuColor} to="/papply"><i className="fa fa-user"></i>About Us</Link></li>
+                                                    <li><Link className={classes.floatMenuColor} to="/papply"><i className="fa fa-phone"></i>Contact Us</Link></li>
+                                                    <li><Link className={classes.floatMenuColor} to="/papply"><i className="fa fa-briefcase"></i>Careers</Link></li>
+                                                    <li><Link className={classes.floatMenuColor} to="/papply"><i className="fa fa-users"></i>Team</Link></li>
+                                                    <li><Link className={classes.floatMenuColor} to="/papply"><i className="fa fa-book"></i>Blog</Link></li>
+                                                    <li><Link className={classes.floatMenuColor} to="/papply"><i className="fa fa-newspaper-o"></i>InCred In News</Link></li>
+                                                    <li className="small-screen"><Link className={classes.floatMenuColor} to="/papply"><i className="fa fa-money"></i>Pay EMI</Link></li>
                                                 </ul>
-                                            </div>
-                                        </div>}
+                                            {/* </div> */}
+                                        </div>
                                     </DropdownItem>
                                 </DropdownMenu>
                             </UncontrolledDropdown>
